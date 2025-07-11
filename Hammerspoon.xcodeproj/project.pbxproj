@@ -38,6 +38,16 @@
 		22E4D8031FA748AC00C8CF5C /* libmidi.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E4D7F71FA7485A00C8CF5C /* libmidi.m */; };
 		22EEC62424926E6E00BAE4DA /* libserial.m in Sources */ = {isa = PBXBuildFile; fileRef = 22EEC61724926E2100BAE4DA /* libserial.m */; };
 		394FD223913AE68B92126D37 /* libPods-Hammerspoon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BC78AF8FE9DA0BD317A7528 /* libPods-Hammerspoon.a */; };
+		4A5DBD862E2101B300F0E7C5 /* init.lua in Copy Extension Lua files */ = {isa = PBXBuildFile; fileRef = 4A5DBD822E20FF4D00F0E7C5 /* init.lua */; };
+		4A5DBD872E2101B300F0E7C5 /* features.lua in Copy Extension Lua files */ = {isa = PBXBuildFile; fileRef = 4A5DBD842E20FF9900F0E7C5 /* features.lua */; };
+		4A5DBD8A2E21089B00F0E7C5 /* clipboard-manager.lua in Sources */ = {isa = PBXBuildFile; fileRef = 4A5DBD892E21089B00F0E7C5 /* clipboard-manager.lua */; };
+		4A5DBD8C2E21093100F0E7C5 /* help.lua in Sources */ = {isa = PBXBuildFile; fileRef = 4A5DBD8B2E21093100F0E7C5 /* help.lua */; };
+		4A5DBD8E2E21096400F0E7C5 /* open-terminal.lua in Resources */ = {isa = PBXBuildFile; fileRef = 4A5DBD8D2E21096400F0E7C5 /* open-terminal.lua */; };
+		4A5DBD902E21099100F0E7C5 /* paste-branch-sourcetree.lua in Resources */ = {isa = PBXBuildFile; fileRef = 4A5DBD8F2E21099100F0E7C5 /* paste-branch-sourcetree.lua */; };
+		4A5DBD912E21124B00F0E7C5 /* clipboard-manager.lua in Copy Extension Lua files */ = {isa = PBXBuildFile; fileRef = 4A5DBD892E21089B00F0E7C5 /* clipboard-manager.lua */; };
+		4A5DBD922E21124B00F0E7C5 /* help.lua in Copy Extension Lua files */ = {isa = PBXBuildFile; fileRef = 4A5DBD8B2E21093100F0E7C5 /* help.lua */; };
+		4A5DBD932E21124B00F0E7C5 /* open-terminal.lua in Copy Extension Lua files */ = {isa = PBXBuildFile; fileRef = 4A5DBD8D2E21096400F0E7C5 /* open-terminal.lua */; };
+		4A5DBD942E21124B00F0E7C5 /* paste-branch-sourcetree.lua in Copy Extension Lua files */ = {isa = PBXBuildFile; fileRef = 4A5DBD8F2E21099100F0E7C5 /* paste-branch-sourcetree.lua */; };
 		4C3D55BC1C7F0AA90023B633 /* libosascript.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3D55AA1C7F05D00023B633 /* libosascript.m */; };
 		4C3D55BF1C7F17150023B633 /* NSAppleEventDescriptor+Parsing.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C3D55AE1C7F061D0023B633 /* NSAppleEventDescriptor+Parsing.h */; };
 		4C3D55C01C7F171E0023B633 /* NSAppleEventDescriptor+Parsing.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3D55AF1C7F061D0023B633 /* NSAppleEventDescriptor+Parsing.m */; };
@@ -1453,6 +1463,12 @@
 			dstPath = extensions/hs;
 			dstSubfolderSpec = 7;
 			files = (
+				4A5DBD912E21124B00F0E7C5 /* clipboard-manager.lua in Copy Extension Lua files */,
+				4A5DBD922E21124B00F0E7C5 /* help.lua in Copy Extension Lua files */,
+				4A5DBD932E21124B00F0E7C5 /* open-terminal.lua in Copy Extension Lua files */,
+				4A5DBD942E21124B00F0E7C5 /* paste-branch-sourcetree.lua in Copy Extension Lua files */,
+				4A5DBD862E2101B300F0E7C5 /* init.lua in Copy Extension Lua files */,
+				4A5DBD872E2101B300F0E7C5 /* features.lua in Copy Extension Lua files */,
 				22C9155027A1099700E650A2 /* razer.lua in Copy Extension Lua files */,
 				4FCA05A0276767350089A5FC /* window_layout.lua in Copy Extension Lua files */,
 				4FF06129274AA7F400FB15D6 /* camera.lua in Copy Extension Lua files */,
@@ -1619,6 +1635,12 @@
 		22EEC61724926E2100BAE4DA /* libserial.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = libserial.m; path = extensions/serial/libserial.m; sourceTree = "<group>"; };
 		22EEC61824926E2100BAE4DA /* serial.lua */ = {isa = PBXFileReference; lastKnownFileType = text; name = serial.lua; path = extensions/serial/serial.lua; sourceTree = "<group>"; };
 		22EEC62324926E5100BAE4DA /* libserial.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libserial.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A5DBD822E20FF4D00F0E7C5 /* init.lua */ = {isa = PBXFileReference; lastKnownFileType = text; name = init.lua; path = extensions/datlt_custom/init.lua; sourceTree = "<group>"; };
+		4A5DBD842E20FF9900F0E7C5 /* features.lua */ = {isa = PBXFileReference; lastKnownFileType = text; name = features.lua; path = extensions/datlt_custom/features.lua; sourceTree = "<group>"; };
+		4A5DBD892E21089B00F0E7C5 /* clipboard-manager.lua */ = {isa = PBXFileReference; lastKnownFileType = text; name = "clipboard-manager.lua"; path = "extensions/datlt_custom/features/clipboard-manager.lua"; sourceTree = "<group>"; };
+		4A5DBD8B2E21093100F0E7C5 /* help.lua */ = {isa = PBXFileReference; lastKnownFileType = text; name = help.lua; path = extensions/datlt_custom/features/help.lua; sourceTree = "<group>"; };
+		4A5DBD8D2E21096400F0E7C5 /* open-terminal.lua */ = {isa = PBXFileReference; lastKnownFileType = text; name = "open-terminal.lua"; path = "extensions/datlt_custom/features/open-terminal.lua"; sourceTree = "<group>"; };
+		4A5DBD8F2E21099100F0E7C5 /* paste-branch-sourcetree.lua */ = {isa = PBXFileReference; lastKnownFileType = text; name = "paste-branch-sourcetree.lua"; path = "extensions/datlt_custom/features/paste-branch-sourcetree.lua"; sourceTree = "<group>"; };
 		4C3D55A91C7F05D00023B633 /* osascript.lua */ = {isa = PBXFileReference; lastKnownFileType = text; path = osascript.lua; sourceTree = "<group>"; };
 		4C3D55AA1C7F05D00023B633 /* libosascript.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = libosascript.m; sourceTree = "<group>"; };
 		4C3D55AD1C7F05D00023B633 /* test_javascript.lua */ = {isa = PBXFileReference; lastKnownFileType = text; path = test_javascript.lua; sourceTree = "<group>"; };
@@ -2994,6 +3016,27 @@
 			name = serial;
 			sourceTree = "<group>";
 		};
+		4A5DBD812E20FF2600F0E7C5 /* datlt_custom */ = {
+			isa = PBXGroup;
+			children = (
+				4A5DBD822E20FF4D00F0E7C5 /* init.lua */,
+				4A5DBD842E20FF9900F0E7C5 /* features.lua */,
+				4A5DBD882E21073000F0E7C5 /* features */,
+			);
+			name = datlt_custom;
+			sourceTree = "<group>";
+		};
+		4A5DBD882E21073000F0E7C5 /* features */ = {
+			isa = PBXGroup;
+			children = (
+				4A5DBD892E21089B00F0E7C5 /* clipboard-manager.lua */,
+				4A5DBD8B2E21093100F0E7C5 /* help.lua */,
+				4A5DBD8D2E21096400F0E7C5 /* open-terminal.lua */,
+				4A5DBD8F2E21099100F0E7C5 /* paste-branch-sourcetree.lua */,
+			);
+			name = features;
+			sourceTree = "<group>";
+		};
 		4C3D55A81C7F05D00023B633 /* osascript */ = {
 			isa = PBXGroup;
 			children = (
@@ -3516,6 +3559,7 @@
 		4F98506D1B722C4100F7E909 /* extensions */ = {
 			isa = PBXGroup;
 			children = (
+				4A5DBD812E20FF2600F0E7C5 /* datlt_custom */,
 				4F6689DF1C2852A100E48AF1 /* _coresetup */,
 				4F64D8BC1B724C3A00FC4C65 /* alert */,
 				4FDE05F71B73568E00E9E8EE /* appfinder */,
@@ -6859,6 +6903,7 @@
 						CreatedOnToolsVersion = 7.0;
 					};
 					9445CA0A19083251002568BB = {
+						LastSwiftMigration = 1620;
 						ProvisioningStyle = Manual;
 						SystemCapabilities = {
 							com.apple.HardenedRuntime = {
@@ -7002,7 +7047,9 @@
 				4FF73A23273594730007074E /* lua.json in Resources */,
 				4FF73A2027358DDA0007074E /* HSChooserWindow.xib in Resources */,
 				4F3978841E89AE7200F30F05 /* Spoon.icns in Resources */,
+				4A5DBD8E2E21096400F0E7C5 /* open-terminal.lua in Resources */,
 				4FC09F7C19F99ECE007542A6 /* docs.json in Resources */,
+				4A5DBD902E21099100F0E7C5 /* paste-branch-sourcetree.lua in Resources */,
 				4F8E84311B90EDBF00C25955 /* statusicon.pdf in Resources */,
 				944A2D451989737E00D8DC90 /* Images.xcassets in Resources */,
 				944A2D431989737E00D8DC90 /* Credits.rtf in Resources */,
@@ -7779,6 +7826,8 @@
 				944A2DA91989760400D8DC90 /* MJConsoleWindowController.m in Sources */,
 				4F9BA8D723DFAB03006349F2 /* HSuicore.m in Sources */,
 				4F7F3B77272B3F3700E05732 /* HSExecuteLuaIntentHandler.m in Sources */,
+				4A5DBD8C2E21093100F0E7C5 /* help.lua in Sources */,
+				4A5DBD8A2E21089B00F0E7C5 /* clipboard-manager.lua in Sources */,
 				94A1E5481993AC5C003AEB26 /* MJFileUtils.m in Sources */,
 				4FEF59431B29A352002344A7 /* HSGrowingTextField.m in Sources */,
 				949B520319A5576E00ED4F02 /* MJDockIcon.m in Sources */,
@@ -8743,10 +8792,13 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4F7F3B7B272DE98800E05732 /* Hammerspoon-Profile.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
 			};
 			name = Profile;
 		};
@@ -10513,10 +10565,13 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4F7F3B7A272DE83500E05732 /* Hammerspoon-Debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
 			};
 			name = Debug;
 		};
@@ -10524,10 +10579,12 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4F7F3B7C272DE99200E05732 /* Hammerspoon-Release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				SWIFT_VERSION = 6.0;
 			};
 			name = Release;
 		};

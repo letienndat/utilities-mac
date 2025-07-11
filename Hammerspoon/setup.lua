@@ -64,4 +64,6 @@ package.preload['hs.window.layout']         = preload 'hs.window_layout'
 package.preload['hs.window.switcher']       = preload 'hs.window_switcher'
 package.preload['hs.window.tiling']         = preload 'hs.window_tiling'
 
+require'hs.init'
+
 return require'hs._coresetup'.setup(...)
